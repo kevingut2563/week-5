@@ -29,3 +29,27 @@ print(fruit.index("apple")) #finds the index of the element
 print(fruit)
 #for x in fruit:
     #print(x)
+
+
+
+
+cars = ["Ford", "volvo", "BMW"]
+
+cars.insert(0, "honda") 
+cars.append("Mercedes")
+cars.append("Maserati")
+cars.append("porche")
+
+print(cars)
+
+print("The cars on the list are:", cars)
+print(f"The cars in the list are: {cars}")
+cars[-1] = "ausitn martin"
+print(f"The cars in this list are: {cars}")
+cars[3]="chevy"
+print(f"The cars in this list are: {cars}")
+cars.insert(0, "lexus")
+print(f"The cars in this list are: {cars}")
+cars.remove("chevy")
+print(f"the cars in this list are: {cars}")
+print("ford" in cars)
