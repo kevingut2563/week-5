@@ -19,7 +19,7 @@ print("apple" in fruit) # prints so chekc if the string is in the list by saying
 #print(fruit)
 #fruit.remove("banna") #removes the element 
 
-# fruit.insert(0, "apple")
+# fruit.insert(0, "apple")# inputs an element at a certain value 
 
 # fruit.sort()
 # fruit.reverse()
@@ -53,3 +53,11 @@ print(f"The cars in this list are: {cars}")
 cars.remove("chevy")
 print(f"the cars in this list are: {cars}")
 print("ford" in cars)
+
+for car in cars:
+    requestcar= input("Enter a car: ")
+    cars.append(requestcar)
+    print(f'The cars in the list are: {cars}')
+    if len(cars) > 10:
+        print("You have rached the maximum number of cars")
+        break
